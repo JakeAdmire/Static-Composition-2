@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static Comp 1</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+  </head>
+  <body>
+    <section class="body-container">
+      <aside class="sidebar">
+        <section class="profile-pic">
+          <img src="media/profile-pic.png">
+          <span><p><span class="capital">D</span>EMI<span class="capital">L</span>ICH</p>
+          <i class="fas fa-chevron-down"></i></span>
+        </section>
+        <hr>
+        <h5>Main</h5>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-home"></i></span>
+          <span class="p-flex"><p>HOME</p></span>
+        </span>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-pastafarianism"></i></span>
+          <span class="p-flex"><p>MONSTERS</p></span>
+        </span>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-file-invoice"></i></span>
+          <span class="p-flex"><p>CHAR-SHEETS</p></span>
+        </span>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-clipboard-list"></i></span>
+          <span class="p-flex"><p>QUESTS</p></span>
+        </span>
+          <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-calendar-week"></i></span>
+          <span class="p-flex"><p>CALENDER</p></span>
+        </span>
+        <hr>
+        <h5>Admin</h5>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-dice-d20"></i></span>
+          <span class="p-flex"><p>PLAYERS</p></span>
+        </span>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-dungeon"></i></span>
+          <span class="p-flex"><p>DUNGEONS</p></span>
+        </span>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-network-wired"></i></span>
+          <span class="p-flex"><p>WORKFLOWS</p></span>
+        </span>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="far fa-clipboard"></i></span>
+          <span class="p-flex"><p>QUEST BOARDS</p></span>
+        </span>
+        <span class="sidebar-grid">
+          <span class="icon-flex"><i class="fas fa-store"></i></span>
+          <span class="p-flex"><p>MARKETPLACE</p></span>
+        </span>
+        <hr>
+        <h5>Categories</h5>
+        <label class="sidebar-grid">
+          <span class="icon-flex">
+            <input type="checkbox">
+            <div class="faux-box one"></div>
+          </span>
+          <span class="p-flex"><p>Administrative</p></span>
+        </label>
+        <label class="sidebar-grid">
+          <span class="icon-flex">
+            <input type="checkbox">
+            <div class="faux-box two"></div>
+          </span>
+          <span class="p-flex"><p>Design</p></span>
+        </label>
+        <label class="sidebar-grid">
+          <span class="icon-flex">
+            <input type="checkbox">
+            <div class="faux-box three"></div>
+          </span>
+          <span class="p-flex"><p>Executive</p></span>
+        </label>
+        <label class="sidebar-grid">
+          <span class="icon-flex">
+            <input type="checkbox">
+            <div class="faux-box four"></div>
+          </span>
+          <span class="p-flex"><p>Elf Resources</p></span>
+        </label>
+      </aside>
+      <section class="main-body main-body-big">
+        <header>
+          <label>
+            <input type="checkbox" name="">
+            <section class="navigation-btn border-right sidebar-btn" id="collapse-btn">
+              <i class="fas fa-bars"></i>
+            </section>
+          </label>
+          <section class="navigation border-right border-left" id="search-bar">
+            <i class="fas fa-search"></i><input type="text" name="search" placeholder="Search for a job, task or resume"></section>
+          <section class="navigation-btn border-right border-left" id="add-user-btn">
+            <i class="fas fa-user-plus"></i></section>
+          <section class="navigation-btn border-right border-left" id="add-event-btn">
+            <i class="fas fa-calendar-plus"></i></section>
+          <section class="navigation-btn border-left" id="organize-content-btn">
+            <i class="fas fa-th"></i></section>
+        </header>
+        <article class="title">
+          <section id="article-title">
+            <h1>Floor Seven Boss</h1>
+            <div>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Floor 7, Demilich's Lair</p>
+              <i class="fas fa-circle"></i>
+              <span><p>Preview this monster</p></span>
+            </div>
+          </section>
+          <section id="article-btns">
+            <button class="open-btn">
+              <i class="fas fa-skull-crossbones"></i>OPEN
+            </button>
+            <button class="bookmark-btn">
+              <i class="fas fa-book-dead"></i
+            </button>
+            <button class="edit-btn">
+              <i class="fas fa-pencil-alt"></i>
+            </button>
+            <button class="delete-btn">
+              <i class="fas fa-trash-alt"></i>
+            </button>
+          </section>
+        </article>
+        <nav>
+          <p>SUMMARY</p>
+          <p>APPLICANTS</p>
+          <p>JOB BOARD</p>
+          <p>INTERVIEWS</p>
+          <p>ACTIVITY</p>
+          <p>BROADCAST</p>
+          <p>NOTIFICATIONS</p>
+        </nav>
+        <main class="main">
+          <!-- ----------CIRCLE GRAPH---------- -->
+          <article class="circle-container">
+            <main class="circle-graph-container">
+              <div class="single-graph">
+                <svg viewBox="0 0 36 36" class="circle-graph cyan">
+                  <g>
+                    <path class="circle-back"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="80, 100"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="19" class="cir-num">3,154</text>
+                    <text x="18" y="23" class="cir-text">APPLICANTS</text>
+                  </g>
+                </svg>
+              </div>
+              <div class="single-graph">  
+                <svg viewBox="0 0 36 36" class="circle-graph blue">
+                  <g>
+                    <path class="circle-back"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="35, 100"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="19" class="cir-num">1,546</text>
+                    <text x="18" y="23" class="cir-text">INTERVIEWS</text>
+                  </g>
+                </svg>
+              </div>
+              <div class="single-graph">
+                <svg viewBox="0 0 36 36" class="circle-graph magenta">
+                  <g>
+                    <path class="circle-back"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="20, 100"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="19" class="cir-num">912</text>
+                    <text x="18" y="23" class="cir-text">FORWARDS</text>
+                  </g>
+                </svg>
+              </div>
+            </main>
+          </article>
+          <!-- ----------CIRCLE GRAPH---------- -->
+          <article class="graph-container">
+            <main class="bar-graph">
+              <article class="graph-clmn">
+                <p>500</p>
+                <p>400</p>
+                <p>300</p>
+                <p>200</p>
+                <p>100</p>
+                <p>0</p>
+              </article>
+              <article class="graph-content">
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-1"></div>
+                  </div>
+                  <p>S</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-2"></div>
+                  </div>
+                  <p>M</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-3"></div>
+                  </div>
+                  <p>T</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-4"></div>
+                  </div>
+                  <p>W</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-5"></div>
+                  </div>
+                  <p>T</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-6"></div>
+                  </div>
+                  <p>F</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-7"></div>
+                  </div>
+                  <p>S</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-8"></div>
+                  </div>
+                  <p>S</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-9"></div>
+                  </div>
+                  <p>M</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-10"></div>
+                  </div>
+                  <p>T</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-11"></div>
+                  </div>
+                  <p>W</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-12"></div>
+                  </div>
+                  <p>T</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-13"></div>
+                  </div>
+                  <p>F</p>
+                </section>
+                <section>
+                  <div class="outside-div">
+                    <div class="inside-div div-14"></div>
+                  </div>
+                  <p>S</p>
+                </section>
+              </article>
+            </main>
+            <button class="bar-graph-btn">APPLICANTS/DAY</button>
+          </article>
+          <button class="expand-btn">
+            <i class="fas fa-chevron-up"></i>
+          </button>
+        </main>
+        <article class="card-container">
+          <aside id="job-card">
+            <span class="card-header"><h3>JOB DESCRIPTION</h3><button><i class="fas fa-pencil-alt"></i>EDIT</button></span>
+            <span><h6>POSITION TITLE</h6><p>Master of All Villainy</p></span>
+            <hr>
+            <span><h6>LOCATION</h6><p>Floor 7, DEMILICH's Lair</p></span>
+            <hr>
+            <span><h6>EMPLOYMENT TYPE</h6><p>Full-time</p></span>
+            <hr>
+            <span><h6>EXPERIENCE</h6><p>Challenge Lvl 18 -- 20,000 XP</p></span>
+            <hr>
+            <span><h6>STATUS</h6><p>Neutral Evil</p></span>
+            <hr>
+            <span><h6>DESCRIPTION</h6><p>The fragmented remains of an enemy lich who has faltered or failed in it's task.</p></span>
+            <hr>
+            <span><h6>LEADER</h6><p>UNKNOWN</p></span>
+            <hr>
+            <span><h6>APPROVED LOOT</h6><p>58,000 GP</p></span>
+          </aside>
+          <aside id="ext-links">
+            <article class="post-btns">
+              <button id="facebook">
+                <i class="fab fa-facebook-f"></i><p>Post to Facebook</p>
+              </button>
+              <button id="twitter">
+                <i class="fab fa-twitter"></i><p>Tweet this Job</p>
+              </button>
+              <button id="linkedin">
+                <i class="fab fa-linkedin-in"></i><p>Post to Linkedin</p>
+              </button>
+            </article>
+            <article class="details" id="job-link">
+              <span><i class="fas fa-globe-americas"></i><h5>Link to this Job</h5></span>
+              <p>Lorem ipsum</p>
+              <span class="link-span"><input type="text" name="" placeholder="Job Link Placeholder..."><button>Copy</button></span>
+            </article>
+            <hr>
+            <article class="details" id="btn-widget">
+              <span><i class="far fa-window-maximize"></i><h5>Use the Button Widget</h5></span>
+              <p>Lorem ipsum</p>
+              <span class="link-span"><input type="text" name="" placeholder="Widget Link Placeholder..."><button>Copy</button></span>
+            </article>
+            <hr>
+            <article class="details" id="upload-email">
+              <span><i class="fas fa-paper-plane"></i><h5>Upload Resumes by Email</h5></span>
+              <p>Lorem ipsum</p>
+              <input class="link-span" type="text" name="" placeholder="Email Placeholder...">
+            </article>
+          </aside>
+        </article>
+      </section>
+    </section>
+  <script src="main.js"></script>
+  </body>
+</html>
