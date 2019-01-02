@@ -5,6 +5,9 @@ This project was designed as a way of proving an ability to follow a basic comp 
 #### Provided Comp.
 ![Provided comp placeholder](media/back-placeholder1.png)
 
+#### Completed Comp.
+![Completed comp placeholder](media/static-comp-complete.jpg)
+
 ## Tech/framework used
 <b>Built with</b>
 - [Sublime Text Editor](https://sublimetext.com)
