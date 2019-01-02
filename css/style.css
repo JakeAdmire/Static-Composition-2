@@ -65,6 +65,7 @@ section.main-body-big {
   align-items: center;
   justify-content: center;
   width: 100%;
+  transition: all 0s;
 }
 
 .profile-pic span p,
@@ -74,10 +75,12 @@ section.main-body-big {
   font-size: 16px;
   display: flex;
   align-items: baseline;
+  transition: all 0s;
 }
 
-p span.capital {
+.profile-pic span.capital {
   font-size: 20px;
+  transition: all 0s;
 }
 
 /* -----main/admin----- */
@@ -226,14 +229,15 @@ input[type=checkbox] {
   display: none;
 }
 
-input[type=checkbox]:checked ~ .sidebar-btn,
-input[type=checkbox]:checked ~ section i {
+input[type=checkbox]:checked ~ .sidebar-btn {
   background: #00a4ff;
+}
+
+input[type=checkbox]:checked ~ section i {
   color: white;
 }
 
-input[type=checkbox]:checked ~ .sidebar-btn:hover,
-input[type=checkbox]:checked ~ .sidebar-btn:hover > section i {
+input[type=checkbox]:checked ~ .sidebar-btn:hover {
   background: #0087d2;
 }
 
@@ -433,16 +437,15 @@ article.graph-container {
   margin-top: 40px;
   width: 49%;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article.graph-container {
   margin-left: 0;
   margin-right: 25px;
-  margin-top: 40px;
   width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 /* ----------CIRCLE GRAPH---------- */
 .circle-graph-container {
@@ -620,23 +623,43 @@ div.div-14 {
 
 /* ----------BAR GRAPH---------- */
 
-button.bar-graph-btn {
-  width: 180px;
+button.bar-graph-btn,
+button.cir-graph-btn {
   height: 40px;
   border-radius: 50px;
   border: solid #d1dae3 3px;
+  background: #fff;
   color: #5e6d82;
   font-size: 16px;
   font-weight: 700;
   transition: all .2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-button.bar-graph-btn:hover {
+button.bar-graph-btn:hover, 
+button.cir-graph-btn:hover {
   border: solid #73bee8 3px;
   background: #8dd6ff;
   color: #fff;
 }
 
+button.bar-graph-btn {
+  width: 180px;
+}
+
+button.cir-graph-btn {
+  width: 245px;
+}
+
+button.cir-graph-btn:hover i {
+  color: #fff;
+}
+
+button strong {
+  font-weight: 800;
+}
 
 button.expand-btn {
   width: 40px;
