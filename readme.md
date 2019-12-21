@@ -1,19 +1,61 @@
-## Static Comp 2
-This project was designed as a way of proving an ability to follow a basic comp with html and css
+###### Top
 
-## Screenshots
-#### Provided Comp.
-![Provided comp placeholder](media/back-placeholder1.png)
+<br />
+<p align="center">
+  <a href="https://github.com/JakeAdmire/Static-Composition-2">
+    <img src="https://github.com/JakeAdmire/Static-Composition-2/blob/master/media/profile-pic.png?raw=true" alt="Logo" width="150" height="150">
+  </a>
+  <h1 align="center">Static Composition 2</h1>
+  <p align="center">
+    An initial introduction into CSS Grid with a DND monster-focused static composition!
+    <br />
+    <br />
+    <a href="https://jakeadmire.github.io/Static-Composition-2">View Demo</a>
+  </p>
+</p>
+<div align="center">
 
-#### Completed Comp.
-![Completed comp placeholder](media/static-comp-complete.jpg)
+[![LinkedIn][linkedin-shield]][linkedin-url] [![Gmail][gmail-shield]][gmail-url] [![GitHub][github-shield]][github-url]
+</div>
 
-## Tech/framework used
-<b>Built with</b>
-- [Sublime Text Editor](https://sublimetext.com)
+## Table of Contents
 
-## Features
-Features slight javascript functionality and a whole butt load of hover states
+- [About The Project](#About-The-Project)
+  - [Media](#Media)
+  - [Built With](#Built-With)
+- [Assignment Details](#Assignment-Details)
 
-## Credits
-The credit for this project goes solely to Jacob Admire
+## About The Project
+
+:skull: **Static Composition 2** was intended as a way to start learning the basics of CSS Grid.
+
+
+### Media
+![full page screenshot](https://github.com/JakeAdmire/Static-Composition-2/raw/master/media/static-comp-complete.jpg)
+
+### Built With
+- HTML5
+- CSS3 
+
+## Assignment Details
+
+The intended assignment was to learn utilize CSS Grid to build a complex job-data layout static composition. 
+
+---
+
+This project was assigned by Louisa Barrett and Travis Rollins 
+_@ Turing School of Software and Design, Denver, CO._
+
+---
+
+**[BACK TO TOP](#top)**
+
+<!-- URL References  -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-0077b5.svg?style=for-the-badge&logo=linkedin
+[linkedin-url]: https://linkedin.com/in/jakeadmire
+
+[gmail-shield]: https://img.shields.io/badge/-Email-red.svg?style=for-the-badge&logo=gmail&logoColor=white
+[gmail-url]: https://mailto:jakeadmire1@gmail.com
+
+[github-shield]: https://img.shields.io/badge/dynamic/json?label=Follow&query=length&url=https://api.github.com/users/jakeadmire/followers&style=for-the-badge&logo=github
+[github-url]: https://mailto:jakeadmire1@gmail.com
